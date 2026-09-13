@@ -1,0 +1,27 @@
+{
+    "model_name": "efficientnet_b0_quantized_int8",
+    "format": "TensorFlow Lite (.tflite)",
+    "model_size_mb": 4.54,
+    "total_parameters": "N/A (Compressed FlatBuffer)",
+    "trainable_parameters": 0,
+    "non_trainable_parameters": "N/A",
+    "estimated_flops": "N/A",
+    "warmup_runs": 15,
+    "benchmark_iterations": 100,
+    "mean_latency_ms": 423.41,
+    "median_latency_ms": 412.16,
+    "min_latency_ms": 356.05,
+    "max_latency_ms": 620.72,
+    "std_latency_ms": 46.08,
+    "throughput_fps": 2.36,
+    "hardware": {
+        "os": "Windows 11 (10.0.26200)",
+        "python_version": "3.13.5",
+        "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+        "cpu_cores_physical": 8,
+        "cpu_cores_logical": 12,
+        "total_ram_gb": 15.65,
+        "gpus": [],
+        "tensorflow_version": "2.21.0"
+    }
+}

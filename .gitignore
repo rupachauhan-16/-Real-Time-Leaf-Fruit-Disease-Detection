@@ -1,0 +1,37 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large files & checkpoints
+*.h5
+*.keras
+*.tflite
+models/*.keras
+models/*.tflite
+!models/class_names.json
+
+# Logs & temporary runtimes
+logs/*.log
+results/*.png
+results/*.csv
+results/*.txt
+!results/.gitkeep
+!logs/.gitkeep
+
+# Operating system
+.DS_Store
+Thumbs.db

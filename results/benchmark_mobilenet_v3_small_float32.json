@@ -1,0 +1,27 @@
+{
+    "model_name": "mobilenet_v3_small_float32",
+    "format": "TensorFlow Lite (.tflite)",
+    "model_size_mb": 3.88,
+    "total_parameters": "N/A (Compressed FlatBuffer)",
+    "trainable_parameters": 0,
+    "non_trainable_parameters": "N/A",
+    "estimated_flops": "N/A",
+    "warmup_runs": 15,
+    "benchmark_iterations": 100,
+    "mean_latency_ms": 2.12,
+    "median_latency_ms": 1.99,
+    "min_latency_ms": 1.75,
+    "max_latency_ms": 3.84,
+    "std_latency_ms": 0.4,
+    "throughput_fps": 471.46,
+    "hardware": {
+        "os": "Windows 11 (10.0.26200)",
+        "python_version": "3.13.5",
+        "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+        "cpu_cores_physical": 8,
+        "cpu_cores_logical": 12,
+        "total_ram_gb": 15.65,
+        "gpus": [],
+        "tensorflow_version": "2.21.0"
+    }
+}

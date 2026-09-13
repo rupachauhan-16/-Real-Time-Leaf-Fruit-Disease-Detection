@@ -1,0 +1,13 @@
+{
+    "model_name": "mobilenet_v3_small",
+    "accuracy": 0.85,
+    "precision_macro": 0.90625,
+    "recall_macro": 0.85,
+    "f1_macro": 0.8351648351648351,
+    "precision_weighted": 0.90625,
+    "recall_weighted": 0.85,
+    "f1_weighted": 0.8351648351648352,
+    "total_test_samples": 40,
+    "report_csv": "C:\\Users\\himan\\OneDrive\\Desktop\\miniproject\\results\\classification_report_mobilenet_v3_small.csv",
+    "confusion_matrix_png": "C:\\Users\\himan\\OneDrive\\Desktop\\miniproject\\results\\confusion_matrix_mobilenet_v3_small.png"
+}

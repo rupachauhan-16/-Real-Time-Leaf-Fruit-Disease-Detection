@@ -1,0 +1,13 @@
+{
+    "model_name": "efficientnet_b0",
+    "accuracy": 0.875,
+    "precision_macro": 0.9166666666666666,
+    "recall_macro": 0.875,
+    "f1_macro": 0.8666666666666667,
+    "precision_weighted": 0.9166666666666666,
+    "recall_weighted": 0.875,
+    "f1_weighted": 0.8666666666666666,
+    "total_test_samples": 40,
+    "report_csv": "C:\\Users\\himan\\OneDrive\\Desktop\\miniproject\\results\\classification_report_efficientnet_b0.csv",
+    "confusion_matrix_png": "C:\\Users\\himan\\OneDrive\\Desktop\\miniproject\\results\\confusion_matrix_efficientnet_b0.png"
+}

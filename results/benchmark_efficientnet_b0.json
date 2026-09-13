@@ -1,0 +1,31 @@
+{
+    "model_name": "efficientnet_b0",
+    "format": "Keras (.keras)",
+    "model_size_mb": 41.53,
+    "total_parameters": 4219175,
+    "trainable_parameters": 3221664,
+    "non_trainable_parameters": 997511,
+    "estimated_flops": 328704,
+    "warmup_runs": 15,
+    "benchmark_iterations": 100,
+    "mean_latency_ms": 1853.02,
+    "median_latency_ms": 1800.98,
+    "min_latency_ms": 1557.68,
+    "max_latency_ms": 2351.81,
+    "std_latency_ms": 151.8,
+    "throughput_fps": 0.54,
+    "hardware": {
+        "os": "Windows 11 (10.0.26200)",
+        "python_version": "3.13.5",
+        "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+        "cpu_cores_physical": 8,
+        "cpu_cores_logical": 12,
+        "total_ram_gb": 15.65,
+        "gpus": [],
+        "tensorflow_version": "2.21.0"
+    },
+    "accuracy": 0.875,
+    "precision_weighted": 0.9166666666666666,
+    "recall_weighted": 0.875,
+    "f1_weighted": 0.8666666666666666
+}

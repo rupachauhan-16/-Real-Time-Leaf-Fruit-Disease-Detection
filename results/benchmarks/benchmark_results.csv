@@ -1,0 +1,2 @@
+Model,Format,Accuracy,F1-Score,Parameters,Size (MB),Mean Latency (ms),Median Latency (ms),Throughput (FPS)
+mobilenet_v3_small,Keras (.keras),25.00%,10.00%,"1,015,796",4.44,182.63,184.45,5.48

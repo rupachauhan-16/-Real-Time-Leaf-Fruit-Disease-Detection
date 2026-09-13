@@ -1,0 +1,32 @@
+[
+    {
+        "Variant": "Original Model",
+        "Format": "Keras (.keras)",
+        "Size (MB)": 4.44,
+        "Mean Latency (ms)": 120.88,
+        "Median Latency (ms)": 119.93,
+        "Throughput (FPS)": 8.27,
+        "Size Reduction": "0.0%",
+        "Latency Speedup": "1.00x"
+    },
+    {
+        "Variant": "TFLite Standard",
+        "Format": "TensorFlow Lite (.tflite)",
+        "Size (MB)": 3.88,
+        "Mean Latency (ms)": 1.97,
+        "Median Latency (ms)": 1.8,
+        "Throughput (FPS)": 508.57,
+        "Size Reduction": "12.6%",
+        "Latency Speedup": "61.36x"
+    },
+    {
+        "Variant": "TFLite Dynamic Range (INT8)",
+        "Format": "Quantized TFLite (.tflite)",
+        "Size (MB)": 1.17,
+        "Mean Latency (ms)": 11.48,
+        "Median Latency (ms)": 10.88,
+        "Throughput (FPS)": 87.13,
+        "Size Reduction": "73.6%",
+        "Latency Speedup": "10.53x"
+    }
+]

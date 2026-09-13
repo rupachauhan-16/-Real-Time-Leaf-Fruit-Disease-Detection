@@ -1,0 +1,31 @@
+{
+    "model_name": "mobilenet_v3_small",
+    "format": "Keras (.keras)",
+    "model_size_mb": 4.44,
+    "total_parameters": 1015796,
+    "trainable_parameters": 516,
+    "non_trainable_parameters": 1015280,
+    "estimated_flops": 148480,
+    "warmup_runs": 15,
+    "benchmark_iterations": 100,
+    "mean_latency_ms": 182.63,
+    "median_latency_ms": 184.45,
+    "min_latency_ms": 142.31,
+    "max_latency_ms": 262.14,
+    "std_latency_ms": 22.76,
+    "throughput_fps": 5.48,
+    "hardware": {
+        "os": "Windows 11 (10.0.26200)",
+        "python_version": "3.13.5",
+        "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+        "cpu_cores_physical": 8,
+        "cpu_cores_logical": 12,
+        "total_ram_gb": 15.65,
+        "gpus": [],
+        "tensorflow_version": "2.21.0"
+    },
+    "accuracy": 0.25,
+    "precision_weighted": 0.0625,
+    "recall_weighted": 0.25,
+    "f1_weighted": 0.1
+}
